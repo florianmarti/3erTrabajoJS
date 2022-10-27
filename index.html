@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+    <title>Turnos Barberia Pura Pinta</title>
+</head>
+<body>
+     
+    <div class="loginBoxIndex">
+
+		<div class="leftBoxIndex">
+			<h1>Solicitud de Turnos</h1>
+            <h2>Barberia Pura Pinta</h2>
+            <p>Ingrese el turno Solicitado</p>
+            <form action="#" id="formulario">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="input-box" required>
+                 
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" class="input-box" required>
+                 
+                <label for="Servicio">Elegir un Servicio:</label>
+                        <select  name="barberia" id="barberia" class="input-box" required>
+                            <option value="corte">Corte</option>
+                            <option value="barba">Barba</option>
+                            <option value="cejas">Cejas</option>
+                            <option value="vapor">Spa</option>
+                        </select>
+                             
+                <label for="Turnos">Turno</label>
+                <input type="date" id="dia" name="dia" class="input-box" required>
+                 
+                <label for="Hora">Hora de Reserva</label>
+                <input type="time" id="hora" name="hora" class="input-box" required> de Lun - Sab (09:00 - 13:00 o 16:00 a 21:00)
+                <div id="info"></div>
+                 
+                 
+                <input type="submit" id="btn" name="entrar" value="Reservar">
+			  
+            </form>
+            <div>
+                <p id="parrafoResultado"></p>
+            </div>
+		</div>		
+	</div>
+ 
+  
+           
+          
+         
+          
+ 
+        <script src="./script/script.js" ></script>
+</body>
+</html>

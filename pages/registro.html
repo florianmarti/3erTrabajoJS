@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<title>Registrarse</title>
+
+	
+</head>
+<body>
+    <div class="loginBoxReg">
+
+		<div class="leftBoxReg">
+			<h1>Registrate</h1>
+		<form action="" method="POST" id="box-form">
+            <label for="Nombre">Nombre</label> 
+			<input type="text" name="user" id="nombre" class="input-box" required> 
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" class="input-box" required>
+            <label for="Mail">Correo Electronico</label>
+			<input type="email" name="correo" id="correo" class="input-box" required> 
+            <label for="Password">Contraseña</label>
+			<input type="password" name="pass" id="pass" class="input-box" required>
+            <label for="Password">Contraseña</label>
+			<input type="password" name="pass" id="passDup" class="input-box" required>
+				
+			<input type="submit" name="registrarse" id="btnReg" value="Registrarse" >
+			<a href="login.html">Login</a>
+
+		</form>
+		</div>		
+	</div>
+<script src="../script/script.js"></script>
+</body>
+</html>
